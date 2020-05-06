@@ -56,5 +56,15 @@ namespace Tests
             double expected = 24;
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-2.1 Test Case Compare with Zero
+        /// </summary>
+        [Test]
+        public void Given_Inch_Convert_To_Feet_Zero_Input()
+        {
+            double actual = type.Inch_to_Feet(0);
+            double expected = 0;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
