@@ -106,7 +106,7 @@ namespace Tests
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
-        /// TC-1.11 Value check for 1 Feet Not Equal 1 Inch
+        /// TC-1.11 Value Check for 1 Feet Not Equal 1 Inch
         /// </summary>
         [Test]
         public void Given_Input_Check_For_Value_Check_for_Not_Equality_1_Feet_to_1_Inch()
