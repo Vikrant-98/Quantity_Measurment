@@ -71,6 +71,11 @@ namespace Quantity_Measurement
                             Console.WriteLine(input + " Feet = " + type.Feet_to_Inch(double.Parse(input)) + " Inch");
                             break;
                         }
+                    case 2:
+                        {
+                            Console.WriteLine(input + " Inch = " + type.Inch_to_Feet(double.Parse(input)) + " Feet");
+                            break;
+                        }
                     default:
                         {
                             throw new MeasurementException(MeasurementException.Type.Invalid_Type, "Invalid Type Exception");
@@ -92,6 +97,9 @@ namespace Quantity_Measurement
         {
             return input *= 12;
         }
-        
+        public double Inch_to_Feet(double input)
+        {
+            return input /= 12;
+        }
     }
 }

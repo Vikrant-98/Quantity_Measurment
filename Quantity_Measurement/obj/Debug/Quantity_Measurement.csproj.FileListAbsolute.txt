@@ -1,0 +1,7 @@
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\bin\Debug\Quantity_Measurement.exe.config
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\bin\Debug\Quantity_Measurement.exe
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\bin\Debug\Quantity_Measurement.pdb
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\obj\Debug\Quantity_Measurement.csprojAssemblyReference.cache
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\obj\Debug\Quantity_Measurement.csproj.CoreCompileInputs.cache
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\obj\Debug\Quantity_Measurement.exe
+C:\Users\The Daddy\source\repos\Quantity_Measurement\Quantity_Measurement\obj\Debug\Quantity_Measurement.pdb
