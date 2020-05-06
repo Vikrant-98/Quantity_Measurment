@@ -95,5 +95,15 @@ namespace Tests
             string expected = "Invalid Type Exception";
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-2.5 Given value input gives correct output
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Equality_Inch_to_Feet()
+        {
+            double actual = type.Inch_to_Feet(3.6);
+            double expected = 0.3;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
