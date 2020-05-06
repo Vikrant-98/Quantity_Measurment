@@ -36,5 +36,15 @@ namespace Tests
             string expected = "Input string was not in a correct format.";
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-1.4 Test for Invalid type check Exception
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Invalid_Type_Feet_to_Inch()
+        {
+            string actual = type.Convert("5", 7);
+            string expected = "Invalid Type Exception";
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
