@@ -75,5 +75,15 @@ namespace Tests
             string expected = "Enter Null Vlaue";
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-2.3 Test for Invalid Reference format Exception
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Ref_Check_Inch_to_Feet()
+        {
+            string actual = type.Convert("abc", 2);
+            string expected = "Input string was not in a correct format.";
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
