@@ -46,5 +46,15 @@ namespace Tests
             string expected = "Invalid Type Exception";
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-1.5 Given value input gives correct output
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Equality_Feet_to_Inch()
+        {
+            double actual = type.Feet_to_Inch(2);
+            double expected = 24;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
