@@ -65,6 +65,15 @@ namespace Tests
             double actual = type.Inch_to_Feet(0);
             double expected = 0;
             Assert.AreEqual(expected, actual);
+        }/// <summary>
+        /// TC-2.2 Test Case to check Null Value
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Null_Value_Inch_to_Feet()
+        {
+            string actual = type.Convert("", 2);
+            string expected = "Enter Null Vlaue";
+            Assert.AreEqual(expected, actual);
         }
     }
 }
