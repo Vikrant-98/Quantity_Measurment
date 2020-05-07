@@ -195,5 +195,15 @@ namespace Tests
             double expected = 1;
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-1.20 Value check for 1 Yard Equal 3 Feet
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Equality_1_Yard_to_3_Feet()
+        {
+            double actual = type.Yard_to_Feet(1);
+            double expected = 3;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
