@@ -185,6 +185,15 @@ namespace Tests
             double expected = 36;
             Assert.AreEqual(expected, actual);
         }
-        
+        /// <summary>
+        /// TC-1.19 Value check for 36 Inch Equal 1 Yard
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Equality_36_Inch_to_1_Yard()
+        {
+            double actual = type.Inch_to_Yard(36);
+            double expected = 1;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
