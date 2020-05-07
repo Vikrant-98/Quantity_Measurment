@@ -165,6 +165,16 @@ namespace Tests
             double expected = 1;
             Assert.AreNotEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-1.17 Value check for 1 Yard Not Equal 1 Feet
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Not_Equality_1_Yard_to_1_Feet()
+        {
+            double actual = type.Yard_to_Feet(1);
+            double expected = 1;
+            Assert.AreNotEqual(expected, actual);
+        }
         
     }
 }
