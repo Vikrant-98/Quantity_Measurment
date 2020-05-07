@@ -125,6 +125,16 @@ namespace Tests
             double expected = 1;
             Assert.AreNotEqual(expected, actual);
         }
+        /// <summary>
+        /// TC-1.13 Value check for 1 Feet Equal to 12 Inch
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Equality_1_Feet_to_12_Inch()
+        {
+            double actual = type.Feet_to_Inch(1);
+            double expected = 12;
+            Assert.AreEqual(expected, actual);
+        }
         
     }
 }
