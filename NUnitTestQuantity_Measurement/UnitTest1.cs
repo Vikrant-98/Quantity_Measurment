@@ -106,12 +106,22 @@ namespace Tests
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
-        /// TC-1.11 Value Check for 1 Feet Not Equal 1 Inch
+        /// TC-1.11 Value check for 1 Feet Not Equal 1 Inch
         /// </summary>
         [Test]
         public void Given_Input_Check_For_Value_Check_for_Not_Equality_1_Feet_to_1_Inch()
         {
             double actual = type.Feet_to_Inch(1);
+            double expected = 1;
+            Assert.AreNotEqual(expected, actual);
+        }
+        /// <summary>
+        /// TC-1.12 Value check for 1 Inch Not Equal 1 Feet
+        /// </summary>
+        [Test]
+        public void Given_Input_Check_For_Value_Check_for_Not_Equality_With_1_Inch_to_1_Feet()
+        {
+            double actual = type.Inch_to_Feet(1);
             double expected = 1;
             Assert.AreNotEqual(expected, actual);
         }
